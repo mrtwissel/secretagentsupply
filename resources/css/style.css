@@ -23,3 +23,17 @@ html {
   height: 1.5rem;
   margin-right: 1rem;
 }
+
+/* JUMBOTRON SECTION */
+
+.jumbotron {
+  height: 25rem;
+  background-image: url(../moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  
+}
