@@ -123,8 +123,7 @@ h1, h4 {
   padding: 5rem 0;
 }
 
-/* RESPONSIVE DESIGN */
-/* TABLET MODE */
+/* RESPONSIVE DESIGN // TABLET MODE*/
 
 @media only screen and (max-width: 1024px) {
   body {
@@ -138,6 +137,7 @@ h1, h4 {
   .nav .mobile-nav {
     text-align: center;
     display: block;
+    width: 100%;
   }
 
   #glasses {
@@ -150,9 +150,36 @@ h1, h4 {
 
 }
 
-/* RESPONSIVE DESIGN */
-/* SMARTPHONE MODE */
+/* RESPONSIVE DESIGN // SMARTPHONE MODE*/
 
-@@media only screen and (max-width: 470px) {
-  
+@media only screen and (max-width: 470px) {
+  .headline {
+    top: 10.5rem;
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .headline h4 {
+    font-size: 0.77rem;
+  }
+  .headline h1 {
+    font-size: 1rem;
+  }
+
+  .jumbotron {
+    height: 15rem;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  .item {
+    width: 90%;
+  }
+
+  .information {
+    flex-wrap: wrap;
+  }
+
 }
