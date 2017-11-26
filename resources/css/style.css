@@ -65,6 +65,10 @@ h1, h4 {
   padding: 0.75rem 0;
 }
 
+.nav .mobile-nav {
+  display: none;
+}
+
 /* MAIN SECTION */
 
 .items {
@@ -114,9 +118,41 @@ h1, h4 {
 /* INFORMATION SECTION */
 
 .footer {
-  height: 5rem;
   background-color: black;
-  text-align: left;
   color: white;
   padding: 5rem 0;
+}
+
+/* RESPONSIVE DESIGN */
+/* TABLET MODE */
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  .nav .container {
+    display: none;
+  }
+
+  .nav .mobile-nav {
+    text-align: center;
+    display: block;
+  }
+
+  #glasses {
+    display: none;
+  }
+
+  .item {
+    width: 47%;
+  }
+
+}
+
+/* RESPONSIVE DESIGN */
+/* SMARTPHONE MODE */
+
+@@media only screen and (max-width: 470px) {
+  
 }
